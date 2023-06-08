@@ -1,0 +1,8 @@
+amount=eval(input("Enter the monthly saving amount:"))
+mon1=amount*(1+0.00417)
+mon2=(amount+mon1)*(1+0.00417)
+mon3=(amount+mon2)*(1+0.00417)
+mon4=(amount+mon3)*(1+0.00417)
+mon5=(amount+mon4)*(1+0.00417)
+mon6=(amount+mon5)*(1+0.00417)
+print("After the sixth month,the account value is",mon6)
